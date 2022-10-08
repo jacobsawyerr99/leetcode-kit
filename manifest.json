@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+
+    "name": "Leetcode Kit",
+    "short_name": "LK",
+    "description": "Enhance user experience when studying on LeetCode.",
+    "version":  "1.0",
+
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "64": "images/icon-64.png",
+        "128": "images/icon-128.png"
+    },
+
+    "background": {
+        "service-worker": "background.js"
+    },
+
+    "action": {
+        "default-icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "64": "images/icon-64.png",
+            "128": "images/icon-128.png"
+        }
+    },
+
+    "permissions": ["activeTab"]
+}
